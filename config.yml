@@ -34,6 +34,8 @@ params:
               url: "/archives/"
             - name: Github
               url: "https://github.com/Tech-Helper503/personal-site"
+            - name: My Posts
+              url: "/posts/"
 
     socialIcons: # optional
         - name: "YouTube"
