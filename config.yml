@@ -1,5 +1,5 @@
-baseURL: "http://example.org" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+baseURL: "http://aidenomondi.netlify.app" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Aiden Omondi
 paginate: 5
 theme: papermod
 
@@ -25,18 +25,18 @@ params:
         enabled: true
         title: "Aiden Omondi" # optional default will be site title
         subtitle: "Programmer"
-        imageUrl: "<image link>" # optional
+        imageUrl: "/aidenomondi.jpg" # optional
         imageTitle: "<title of image as alt>" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
+        imageWidth: 256 # custom size
+        imageHeight: 256 # custom size
         buttons:
             - name: Archive
               url: "/archive"
             - name: Github
-              url: "https://github.com/"
+              url: "https://github.com/Tech-Helper503/personal-site"
 
     socialIcons: # optional
-        - name: "<platform>"
-          url: "<link>"
-        - name: "<platform 2>"
-          url: "<link2>"
+        - name: "YouTube"
+          url: "https://youtube.com/@codingperks"
+        - name: "Github"
+          url: "https://github.com/Tech-Helper503"
