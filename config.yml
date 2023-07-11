@@ -31,7 +31,7 @@ params:
         imageHeight: 256 # custom size
         buttons:
             - name: Archive
-              url: "/archive"
+              url: "/archives/"
             - name: Github
               url: "https://github.com/Tech-Helper503/personal-site"
 
