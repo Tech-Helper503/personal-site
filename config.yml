@@ -1,4 +1,4 @@
-baseURL: "http://aidenomondi.netlify.app" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://aidenomondi.netlify.app" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Aiden Omondi
 paginate: 5
 theme: papermod
@@ -21,6 +21,12 @@ outputs:
         - JSON
 
 params:
+    env: "production"
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowToC: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
     profileMode:
         enabled: true
         title: "Aiden Omondi" # optional default will be site title
@@ -42,3 +48,38 @@ params:
           url: "https://youtube.com/@codingperks"
         - name: "Github"
           url: "https://github.com/Tech-Helper503"
+    markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+  vimeo:
+      disabled: false
+      simple: true
+
+  twitter:
+      disabled: false
+      enableDNT: true
+      simple: true
+
+  instagram:
+      disabled: false
+      simple: true
+
+  youtube:
+      disabled: false
+      privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
