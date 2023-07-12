@@ -22,7 +22,6 @@ outputs:
         - JSON
 
 params:
-    env: "production"
     ShowShareButtons: true
     ShowReadingTime: true
     ShowToC: true
